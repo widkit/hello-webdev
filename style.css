@@ -1,10 +1,30 @@
-#title{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+div{
+flex: 50%;}
+#container{
+    display: flex;
+}
 
-color: red;
-text-align: center;
-border: 28px purple double ;
+.soc{
+    text-align: center;
+    display: block;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 body{
-    background-image: url("kayra.png");
-    font-family: 'Pangolin', cursive;
+    background-image: url('wp.jpeg');
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#title{
+    text-align: center;
+}
+h2{
+    padding-top: 200px;
+}
+h1{
+    font-size: 50px;
 }
